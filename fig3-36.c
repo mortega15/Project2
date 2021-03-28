@@ -12,7 +12,7 @@ CPSC 351: Project 2*/
  
 int main (void)
 {
-	char *args[MAX_LINE/2 + 1];	/* command line (of 80) has max of 40 arguments */
+    char *args[MAX_LINE/2 + 1];	/* command line (of 80) has max of 40 arguments */
     int should_run = 1; /* flag */
 
     char userCM[MAX_LINE]; /*user command*/
